@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior:smooth;
+        }
+.main{
+    display: flex;
+}
+.box-three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box1{
+    padding: 5%;
+    background-color: rgb(117, 105, 105);
+    color: white;
+    height: 100vh;
+}
+.box2{
+    padding: 5%;
+    background: orange;
+}
+.box3{
+    padding: 5%;
+    /* height: 300px; */
+    background: white;
+}
+.box4{
+    padding: 5%;
+    background: green;
+}
+img{
+    padding: 20px;
+    margin: auto;
+    width: 160px;
+    position: relative;
+    left: 483px;
+    /* width: 400px; */
+}
+p{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="box1" id="box1">Nav</div>
+    <div class="box-three">
+        <div class="box2" id="box2"><p>Happy</p></div>
+        <div class="box3" id="box3">
+            <img src="chakra.jpg" alt="">
+            <p>Independance</p></div>
+        <div class="box4" id="box4"><p>Day</p></div>
+    </div>
+</div>
+</body>
+</html>
